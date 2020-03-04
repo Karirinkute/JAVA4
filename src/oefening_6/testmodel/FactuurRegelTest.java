@@ -10,7 +10,6 @@ class FactuurRegelTest {
 
 	@Test
 	void setFactuurRegel() {
-		// Setup
 		FactuurRegel factuurregel = new FactuurRegel();
 		Product product = new Product();
 		product.setPrijs(10);

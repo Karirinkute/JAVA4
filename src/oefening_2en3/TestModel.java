@@ -26,7 +26,7 @@ class TestModel {
 		int oldValue = model.getCounter();
 		assertEquals(0, oldValue);
 		
-		int newValue = 42; //willekeurig getal
+		int newValue = 34;
 		model.setCounter(newValue);
 		assertEquals(newValue, model.getCounter());
 	}
